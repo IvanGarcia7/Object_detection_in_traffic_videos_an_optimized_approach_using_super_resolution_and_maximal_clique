@@ -34,6 +34,8 @@ After performing the successive detections, an output image will be generated.
 
 ![OUTPUT IMAGE](https://github.com/IvanGarcia7/OSCOD/blob/main/images/ex1-ours.jpg?raw=true)
 
+Frame 3 of the first video denoted as sb-camera1-0820am-0835am processed by CenterNet HourGlass 104 Kpts with a confidence $>$ 50\%. Optimized proposal applied with $R$ = 50\%.
+
 
 # Another example applied to the Visdrone dataset:
 
@@ -45,6 +47,8 @@ After performing the successive detections, an output image will be generated.
 ## OURS:
 
 ![OUTPUT IMAGE](https://github.com/IvanGarcia7/OSCOD/blob/main/images/ex2-ours.jpg?raw=true)
+
+Frame 0000001\_05499\_d\_0000010 of the VisDrone dataset processed by EfficientDet D4 with a confidence $>$ 50\%. Optimized proposal applied with $R$ = 50\%.
 
 
 # Evaluation:
