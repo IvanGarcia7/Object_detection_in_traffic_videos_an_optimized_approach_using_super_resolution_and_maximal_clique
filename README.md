@@ -7,7 +7,7 @@ This framework has been successfully tested on real traffic sequences obtained f
 
 A demo is provided to run our proposal on the following jupyter notebook:
 
-* https://github.com/IvanGarcia7/ALAF/blob/main/DEMO.ipynb
+* https://github.com/IvanGarcia7/OSCOD/blob/main/DEMO.ipynb
 
 Within the jupyter notebook, all the necessary steps are established to initialize the work environment, download the pre-trained super-resolution and object detection models and execute the proposal. 
 
@@ -62,7 +62,7 @@ To evaluate the mAP(Mean Average Precision) of the model, a function is included
 
 A Docker image is included in order to install all the libraries required to run our proposal:
 
-* https://github.com/IvanGarcia7/ALAF/blob/main/Dockerfile
+* https://github.com/IvanGarcia7/OSCOD/blob/main/Dockerfile
 
 # Information:
 
