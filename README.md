@@ -1,4 +1,4 @@
-# OSCOD - Optimized Super-Resolved Cliques Object Detection
+# Object detection in traffic videos: an optimized approach using super-resolution and maximal clique algorithm
 
 # Optimized object detection in traffic videos by super-resolution and maximal clique generation
 
@@ -90,7 +90,49 @@ If you use some of the sequences established in this repository or our proposal,
 *This proposal:
 
 ```
-Not Available Yet
+@ARTICLE{Garcia-Aguilar2023-yu,
+  title     = "Object detection in traffic videos: an optimized approach using
+               super-resolution and maximal clique algorithm",
+  author    = "Garc{\'\i}a-Aguilar, Iv{\'a}n and Garc{\'\i}a-Gonz{\'a}lez,
+               Jorge and Luque-Baena, Rafael Marcos and L{\'o}pez-Rubio,
+               Ezequiel",
+  abstract  = "AbstractDetection of small objects is one of the main challenges
+               to be improved in deep learning, mainly due to the small number
+               of pixels and scene's context, leading to a loss in performance.
+               In this paper, we present an optimized approach based on deep
+               object detection models that allow the detection of a higher
+               number of elements and improve the score obtained for their
+               class inference. The main advantage of the presented methodology
+               is that it is not necessary to modify the internal structure of
+               the selected convolutional neural network model or re-training
+               for a specific scene. Our proposal is based on detecting initial
+               regions to generate several sub-images using super-resolution
+               (SR) techniques, increasing the number of pixels of the
+               elements, and re-infer over these areas using the same
+               pre-trained model. A reduced set of windows is calculated in the
+               super-resolved image by analyzing a computed graph that
+               describes the distances among the preliminary object detections.
+               This analysis is done by finding maximal cliques on it. This
+               way, the number of windows to be examined is diminished,
+               significantly speeding up the detection process. This framework
+               has been successfully tested on real traffic sequences obtained
+               from the U.S. Department of Transportation. An increase of up to
+               44.6\% is achieved, going from an average detection rate for the
+               EfficientDet D4 model of 14.5\% compared to 59.1\% using the
+               methodology presented for the first sequence. Qualitative
+               experiments have also been performed over the Cityscapes and
+               VisDrone datasets.",
+  journal   = "Neural Comput. Appl.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  35,
+  number    =  26,
+  pages     = "18999--19013",
+  month     =  sep,
+  year      =  2023,
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
 ```
 
 
